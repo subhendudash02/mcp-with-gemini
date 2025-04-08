@@ -15,7 +15,7 @@ server = StdioServerParameters(
     env=None
 )
 
-prompt = "Hey, add 1 and 2"
+prompt = "Find number of students having marks1 between 40 to 70."
 
 def create_gemini_tools(mcp_tools: ListToolsResult):
     tools = [
