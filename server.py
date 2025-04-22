@@ -22,7 +22,8 @@ def get_greeting(name: str) -> str:
 def find_range(field_name: str, start: int, end: int):
     li = [{"Name": "Subhendu", "marks1": "41", "marks2": "32"},
           {"Name": "Subhendu2", "marks1": "100", "marks2": "56"},
-          {"Name": "Subhendu3", "marks1": "70", "marks2": "35"}]
+          {"Name": "Subhendu3", "marks1": "70", "marks2": "35"},
+          {"Name": "Subhendu4", "marks1": "25", "marks2": "30"}]
     
     """Find the range of a field in a list of dictionaries"""
     if field_name not in li[0]:
