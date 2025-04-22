@@ -35,7 +35,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - uses: subhendudash02/gemini-ai-code-reviewer@main
+      - uses: truongnh1992/gemini-ai-code-reviewer@main
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
